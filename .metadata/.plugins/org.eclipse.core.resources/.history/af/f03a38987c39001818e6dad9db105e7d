@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class mainTest {
+
+	@Test
+	public void Add() {
+		assertEquals(2, main.add(1, 1));
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void Subtract() {
+		assertEquals(2, main.subtract(3, 1));
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void Divide() {
+		assertEquals(2.0, main.divide(4, 2), 0.0f);
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void Multiply() {
+		assertEquals(8.0, main.multiply(4, 2), 0.0f);
+		//fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="mainTest" project="Assessment2" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="mainTest" time="0.0">
+    <testcase name="Subtract" classname="mainTest" time="0.0"/>
+    <testcase name="testAdd" classname="mainTest" time="0.0"/>
+    <testcase name="Multiply" classname="mainTest" time="0.0"/>
+    <testcase name="Divide" classname="mainTest" time="0.0"/>
+  </testsuite>
+</testrun>

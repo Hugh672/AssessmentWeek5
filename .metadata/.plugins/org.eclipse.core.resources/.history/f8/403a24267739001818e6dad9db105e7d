@@ -1,0 +1,39 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+	public int add(int a, int b) {
+		return a + b;
+	}
+	
+	public int subtract(int a, int b) {
+		return a - b;
+	}
+	
+	public int divide(int a, int b) {
+		return a / b;
+	}
+	
+	public int multiply(int a, int b) {
+		return a * b;
+	}
+	
+	public int maths(int a, int b, String c) {
+		if (c.equals("add")){
+			return add(a, b);
+			
+		} else if(c.equals("sub")) {
+			return subtract(a, b);
+		}else if(c.equals("sub")) {
+			return divide(a, b);
+		}else if(c.equals("multiply")) {
+			return multiply(a, b);
+		}
+	}
+	
+	
+}
